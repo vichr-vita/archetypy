@@ -4,3 +4,6 @@ drops a basic Python directory structure to project path, creates venv, and inst
 ```bash
 ./archetypy.sh /path/to/project-folder
 ```
+
+# TODO
+- create "-a" flag for specific archetype
