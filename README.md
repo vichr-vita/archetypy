@@ -8,3 +8,4 @@ drops a basic Python directory structure to project path, creates venv, and inst
 # TODO
 - handle graceful exit
 - create "-a" flag for specific archetype
+- create flags for routines like --no-install (do not install packages)
