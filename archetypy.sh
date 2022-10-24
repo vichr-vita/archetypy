@@ -34,7 +34,7 @@ PACKAGENAME=${PACKAGENAME//-/_}
 echo Starting the project in $PACKAGEPATH.
 mkdir $PACKAGEPATH/$PACKAGENAME
 
-# initialize dir structure with static files
+# initialize dir structure with the static files
 ARCHETYPEPATH=$SCRIPTPATH/resources/project-archetype/
 find $ARCHETYPEPATH -maxdepth 1 -type d,f ! -name package_name ! -path $ARCHETYPEPATH -exec cp -rt $PACKAGEPATH {} +
 
