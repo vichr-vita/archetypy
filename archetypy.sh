@@ -38,7 +38,7 @@ mkdir $PACKAGEPATH/$PACKAGENAME
 ARCHETYPEPATH=$SCRIPTPATH/resources/project-archetype/
 find $ARCHETYPEPATH -maxdepth 1 -type d,f ! -name package_name ! -path $ARCHETYPEPATH -exec cp -rt $PACKAGEPATH {} +
 
-# initialize Python environment with packages specified in by the archetype
+# initialize Python environment with the already-specified archetype modules
 echo Initializing Python evironment in $PACKAGEPATH/venv/.
 python3 -m venv $PACKAGEPATH/venv
 echo Installing Python packages to the environment
